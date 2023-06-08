@@ -1,27 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.banner_image {
+  height:100vh;
+  object-fit: cover;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+h1.banner_heading {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 40px;
+  background: #0000006e;
+  top: 50vh;
+  width: 100%;
+  text-align: center;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media only screen and (max-width: 768px) {
+  h1.banner_heading {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+    top: 0vh;
+    }
 }
