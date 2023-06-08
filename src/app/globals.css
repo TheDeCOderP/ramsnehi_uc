@@ -2,6 +2,12 @@ body{
   margin:0px;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .banner_image {
   height:100vh;
   object-fit: cover;
@@ -15,7 +21,6 @@ h1.banner_heading {
   font-weight: 800;
   padding: 20px;
   background: #0000006e;
-  top: 50vh;
   text-align: center;
 }
 
