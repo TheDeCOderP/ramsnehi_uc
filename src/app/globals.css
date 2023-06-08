@@ -1,7 +1,6 @@
 
 
 .banner_image {
-  position: relative;
   height:100vh;
   object-fit: cover;
   width: 100%;
@@ -12,10 +11,9 @@ h1.banner_heading {
   color: white;
   font-size: 40px;
   font-weight: 800;
-  padding: 40px;
+  padding: 20px;
   background: #0000006e;
   top: 50vh;
-  width: 100%;
   text-align: center;
 }
 
