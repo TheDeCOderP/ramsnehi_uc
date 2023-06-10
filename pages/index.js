@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-       <html lang="en" />
+      
         <link rel="icon" href="/favicon.ico" />
         <title>Ramsnehi Plywood & Hardware</title>
         <meta
